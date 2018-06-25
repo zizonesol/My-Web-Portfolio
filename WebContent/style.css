@@ -11,7 +11,7 @@ body
 /* Global */
 .container
 {
-	width:78%;
+	width:75%;
 	margin:auto;
 	overflow: hidden;
 }
@@ -43,7 +43,7 @@ header a
 header li
 {
 	display:inline;
-	padding:0 40px 0 40px;
+	padding:0 50px 0 50px;
 }
 
 header #branding
@@ -90,7 +90,7 @@ header a:hover
 {
 	float:left;
 	text-align: center;
-	width: 32%;
+	width: 31%;
 	padding:10px;
 }
 
@@ -101,7 +101,7 @@ header a:hover
 
 #boxes .box img
 {
-	width:90px;
+	width:100px;
 }
 
 /* Introduction about me */
@@ -123,7 +123,7 @@ header a:hover
 }
 
 /* Information divider */
-#edu h2
+#edu h2, #lang h2
 {
 	margin-top: 20px;
 	margin-bottom: 0; 
@@ -145,13 +145,19 @@ header a:hover
 	margin-right: auto;
 }
 
-#edu .desc p, #edu .desc ul, #edu .desc h3
+#edu .desc p, #edu .desc ul, #edu .desc h3 
 {
 	margin-top: 3px;
 	margin-bottom: 3px;
 }
 
-
+#lang .plist li
+{
+	display:inline;
+	padding: 0 25px 0 25px;
+	margin-left: auto;
+	margin-right:auto;
+}
 
 
 /* Footer */
