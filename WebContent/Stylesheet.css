@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+body
+{
+	background-color:#e6f2ff;
+	font-family: sans-serif;
+}
+
+/* Header */
+header
+{
+	background-color:#4682B4; 
+	color:#e6f2ff;
+	text-align: center;
+	width:auto;
+	height: 110px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:30px;
+	min-height:70px;
+}
+
+header h1
+{
+	font-size: 26pt;
+}
+
+#navbar
+{
+	color:#e6f2ff;
+	text-align: center;
+	font-size:15pt;
+	width: 900px;
+	max-width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	top:0;
+	bottom:0;
+	padding-right:20px;
+	padding-left:20px;
+}
+
+#navbar a
+{
+	color:#e6f2ff;
+	padding:.5rem 2rem;
+}
+
+#navbar a:hover
+{
+	text-decoration:none;
+}
+
+
+#webdescriptor
+{
+	background-color:#F8F8FF;
+	text-align: center;
+	padding:50px;
+	color:#737373;
+	max-width:900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#maintile
+{
+	background-color:#F8F8FF;
+	text-align: center;
+	padding-top:10px;
+	padding-right:50px;
+	padding-left:50px;
+	padding-bottom:5px;
+	max-width:900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#maintile h2
+{
+	color:#262626;
+	line-height:50%;
+}
+
+#maintile p
+{
+	color:#737373;
+}
+
+/* Main Descriptor */
+#descriptor
+{
+	background-color:#F8F8FF;
+	padding: 10px 50px 50px 50px;
+	width:10px;
+	margin-left:auto;
+	margin-right:auto;
+	width:435px;
+	max-width:900px;
+	display:block;
+}
+
+#descriptor h2
+{
+	color:#262626;
+	line-height:50%;
+}
+
+#descriptor h3
+{
+	color:#333333;
+}
+
+#descriptor p
+{
+	color:#737373;
+	margin-left:10px;
+	border-bottom:0px;
+}
+
+#descriptor ul
+{
+	color:#737373;
+}
+
+.img-circle
+{
+	border-radius:50%;
+}
+
+#edu
+{
+	margin-left:20px;
+	width:80%;
+	margin:auto;
+}
+
+#edu p
+{
+	margin:0;
+	padding:0;
+}
+
+#edu li
+{
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
+}
+
+#project a
+{
+	color:#404040;
+	font-size:15pt;
+	margin-left:10px;
+	font-weight:bold;
+}
+
+#project p
+{
+	color:#737373;
+	margin-left:10px;
+	margin-bottom:0px;
+}
+
+#lang
+{
+	columns:2;
+	-webkit-columns:2;
+	-moz-columns:2;
+}
+
+#footnote
+{
+	background-color:#4682B4; 
+	color:#e6f2ff;
+	text-align: center;
+	margin-bottom:20px;
+	margin-left:0px;
+	margin-right:0px;
+	font-size:12pt;
+	padding:2px;
+}
