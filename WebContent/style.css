@@ -21,6 +21,15 @@ body
 	border-radius: 50%;
 }
 
+.dark
+{
+	padding:15px;
+	background:#4682B4;
+	color:#ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 /* Header */
 header
 {
@@ -67,7 +76,7 @@ header .current a
 
 header a:hover
 {
-	color: #f0f8ff;
+	color: #87cefa;
 	font-weight: bold;
 }
 
@@ -90,7 +99,7 @@ header a:hover
 {
 	float:left;
 	text-align: center;
-	width: 31%;
+	width: 32%;
 	padding:10px;
 }
 
@@ -145,7 +154,8 @@ header a:hover
 	margin-right: auto;
 }
 
-#edu .desc p, #edu .desc ul, #edu .desc h3 
+#edu .desc p, #edu .desc ul, #edu .desc h3, 
+	#edu h3, #edu .desc h4
 {
 	margin-top: 3px;
 	margin-bottom: 3px;
@@ -157,6 +167,29 @@ header a:hover
 	padding: 0 25px 0 25px;
 	margin-left: auto;
 	margin-right:auto;
+}
+
+aside#sidebar
+{
+	float:right;
+	width:35%;
+	margin-top: 10px
+}
+
+aside#sidebar li
+{
+	font-size: 15px;
+}
+
+aside#sidebar a
+{
+	color:#ffffff;
+}
+
+aside#sidebar a:hover
+{
+	color: #87cefa;
+	font-weight: bold;
 }
 
 
