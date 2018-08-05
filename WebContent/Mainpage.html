@@ -8,38 +8,51 @@
 		<meta name="author" content="David Park">
 		<title>David Park Welcome</title>
 		<link href="style.css" rel="stylesheet">
+		<script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript" src="scroll.js"></script>
 	</head>
 	<body>
 		<!-- A Header for the page -->
 		<header>
 			<div class="container">
-				<div id="branding">
-					<h1>Welcome to David's Website!</h1>
-				</div>
-				<nav>
+				<nav id="sticky">
+					<h1 color="white">David Park Web Resume</h1>
 					<ul>
-						<li class="current"><a href="Mainpage.html">Home</a></li>
-						<li><a href="About.html">About Me</a></li>
-						<li><a href="Project.html">Project</a></li>
-						<li><a href="Contact.html">Contact Me</a></li>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About Me</a></li>
+						<li><a href="#project">Project</a></li>
+						<li><a href="#leadership">Leadership</a></li>
+						<li><a href="#contact">Contact Me</a></li>
 					</ul>
 				</nav>
 			</div>
 		</header>
-		
-		<div class="container">
-			<div class="main-desc">
-				<!-- Profile Picture -->
-				<img class="img-circle" 
-					src="../Images/profilepic.jpg" 
-					width="200" height="auto" alt="Avatar">
-				<p>
-					Hello, my name is David Park and I developed this website to show my skills as a web deveoper. So far, I've utilized HTML, CSS, and Javascript to develop this website. I assure you, there will be more features in the future. Please feel free to look around.
-				</p>
-			</div>
-		</div>
 
-		<!-- Tools Used -->
+
+		<section id="home">
+			<div class="container">
+				<h1>David Park Web Resume</h1>
+				<p>This is a Website dedicated to David's works and other achievements</p>
+			</div>
+		</section>
+
+		<section id="about">
+			<h1 align="center">About Me</h1>
+			<div class="container">
+				<div class="main-desc">
+					<!-- Profile Picture -->
+					<img class="img-circle" 
+						src="../Images/profilepic.jpg" 
+						width="300" height="auto" alt="Avatar">
+					<p>
+						I am a recent graduate of UC Irvine with the B.S. degree in Computer Science since June 16, 2018. I am hardworking and cooperative teammate who is always looking for the best solution in team effort.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Tools Used 
 		<div class="container">
 			<section id="boxes">
 				<h2>Tools Used</h2>
@@ -55,7 +68,215 @@
 				</div>
 			</section>
 		</div>
+	-->
+			<!-- Education Information -->
+			<div class="container">
+				<section id="edu">
+					<h2>Education</h2>
+					<div class="desc">
+						<h3>UC Irvine</h3>
+						<p>B.S. Computer Science</p>
+						<p>Date Attended: 2015-2018</p>
+						<p>Courseworks:</p>
+						<ul>
+							<li>Database Management and Web Applications</li>
+							<li>Design and Analysis of Algorithm</li>
+							<li>Computer Networks</li>
+							<li>Digital Logic Design</li>
+							<li>Human Computer Interaction</li>
+						</ul>
+					</div>
+					<div class="desc">
+						<h3>Orange Coast College</h3>
+						<p>Certificate of Specialization: C++ Programming</p>
+						<p>Date Attended: 2013 - 2015</p>
+						<p>Courseworks:</p>
+						<ul>
+							<li>Data Structure</li>
+							<li>C++ Programming</li>
+							<li>Java Programming</li>
+							<li>Software Engineering</li>
+							<li>Computer Architecture</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+
+			<div class="container">
+				<section id="lang">
+					<h2>Skills</h2>
+					<div class="plist">
+						<h3>Programming Languages</h3>
+						<ul>
+							<li>Java</li>
+							<li>C/C++</li>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Javascript</li>
+							<li>MySQL</li>
+							<li>Python</li>
+							<li>Swift</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+			
+			<div class="container">
+				<section id="edu">
+					<h3>Spoken Languages</h3>
+					<div class="desc">
+						<h4>Fluent:</h4>
+						<ul>
+							<li>English</li>
+							<li>Korean</li>
+						</ul>
+					</div>
+					<div class="desc">
+						<h4>Elementary:</h4>
+						<ul>
+							<li>Spanish</li>
+							<li>Japanese</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</section>
+
+		<section id="project">
+			<div class="container">
+				<section id="edu">
+					<h1 align="center">Project Experiences</h1>
+					<div class="desc">
+						<h3><a href="https://github.com/zizonesol/Moviedb-Web-App">Fabflix</a></h3>
+						<p>Co-developer, Database and Web Applications Course, UC Irvine</p>
+						<p>Developed Through: <span class="bolding">Jan-March</span>, 2018</p>
+						<ul>
+							<li>
+								Developed database web application that sells movies to customers through  Java Servlets, HTML, Javascript, MySQL, AWS Instance, and Apache Tomcat Web Server
+							</li>
+							<li>
+								Implemented MySQL query through JDBC on Eclipse EE to fetch the database information within the AWS
+							</li>
+							<li>
+								Implemented Google’s ReCaptcha on the main Login page to strengthen the website security
+							</li>
+							<li>
+								Incorporated Connection Pooling and Prepared Statements to allow the website query to operate more efficiently
+							</li>
+						</ul>
+					</div>
+
+					<div class="desc">
+						<h3>Operating Systems Scheduler</h3>
+						<p>Programmer, Operating Systems Princicple Course, UC Irvine</p>
+						<p>Developed Through: May-June, 2017</p>
+						<ul>
+							<li>
+								Implemented program that simulates the Scheduler Algorithms that distribute the execution of jobs amongst different computer processors
+							</li>
+							<li>
+								Utilized the Linux operating system by compiling and running the Javacode in UCI openlab server
+							</li>
+							<li>
+								Successfully built and compiled the program in Linux kernel to ensure the minimal code error in the program
+							</li>
+						</ul>
+					</div>
+					<div class="edu">
+						<h3><a href="">Seconds to Life</a></h3>
+						<p>Co-developer, MedAppJam, UC Irvine</p>
+						<p>Developed in the Nov, 2015</p>
+						<ul>
+							<li>
+								Developed an IOS application that guides the users through the CPR during the times of emergency using Swift Programming Language
+							</li>
+							<li>
+								Successfully implemented a feature that counts the heartbeat to make the CPR much easier
+							</li>
+							<li>
+								Designed an intuitive user interface so that even the beginners can understand the process of CPR
+							</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</section>
 		
+		<!-- Leadership Experience -->
+		<section id="leadership">
+			<div class="container">
+				<section id="edu">
+					<h1 align="center">Leadership Experiences</h1>
+					<div class="desc">
+						<img src="../Images/ksea_logo.png">
+						<h3>Event Coordinator</h3>
+						<p>Strategy Department at Korean American Scientist and Engieer Association (KSEA)</p>
+						<p>UC Irvine</p>
+						<p>Dates Active: May - Aug 2017</p>
+						<ul>
+							<li>Planned and oraganized an academic event that promoted the Scientific fields for Korean students</li>
+							<li>Successfully managed the events and </li>
+						</ul>
+					</div>
+					<div class="desc">
+						<img src="../Images/ksa_logo.png">
+						<h3>President</h3>
+						<p>Korean Student Association (KSA)</p>
+						<p>Orange Coast College</p>
+						<p>Dates Active: Sep - Dec 2015</p>
+						<ul>
+							<li>Created and organized a club that is dedicated to connecting Korean Students to American students through culture sharing</li>
+							<li>Developed an organizational structure that holds all the officers of the club responsible and accountable</li>
+							<li>Trained new officers to develop leadership skills and responsibility to promote the autonomy of each branch of the officers</li>
+						</ul>
+					</div>
+					<div class="desc">
+						<img src="../Images/icc_logo.png">
+						<h3>Director of Logistics</h3>
+						<p>InterClub Council at Associated Students</p>
+						<p>Orange Coast College</p>
+						<p>Dates Active: Feb - May 2015</p>
+						<ul>
+							<li>Managed the structure of the school events and </li>
+							<li>Operated the </li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</section>
+
+		
+		<section id="contact">
+			<div class="container">
+				<h1 align="center">Contact</h1>
+					<aside id="mailbar">
+					<form>
+						Your Name:<br>
+						<input type="text" tableindex="1"><br>
+						Email:<br>
+						<input type="email" tableindex="2"><br>
+						Subject:<br>
+						<input type="text" tableindex="3"><br>
+						Message:<br>
+						<textarea tableindex="4"></textarea><br>
+						<button type="submit" class="button_1"><a href="mailto:parkhan1994@gmail.com">Send</a></button>
+					</form>
+				</aside>
+				<aside id="sidebar">
+					<div class="dark">
+						<h3>Contacts</h3>
+						<ul>
+							<br>
+							<li>Email: <h4><a href="mailto:parkhan1994@gmail.com">parkhan1994@gmail.com</a> </h4></li>
+							<li>Phone: <h4><a href="tel:909-533-7355">(909)533-7355</a></h4></li>
+							<li>LinkedIn: <h4><a href="https://www.linkedin.com/in/david-park-a99b9b112/">/david-park-a99b9b112/</a></h4></li>
+							<li>Github: <h4><a href="https://github.com/zizonesol">/zizonesol</a></h4></li>
+						</ul>
+					</div>
+				</aside>
+			</div>
+		</section>
+
 		<footer>
 			<p>Made by David Park, Copyright &copy; 2018</p>
 		</footer>
