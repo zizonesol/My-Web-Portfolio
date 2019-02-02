@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # My-Web-Portfolio
 This repository contains files for my web resume that I personally devloped and designed. This website was developed using HTML and CSS
 =======
@@ -20,5 +19,4 @@ This web resume introduces who I am and what I have done as a computer programme
 ### Known Bugs
 
 So far, no
->>>>>>> Add README
 
